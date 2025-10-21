@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tracking - DIOM Courier Services</title>
+    <meta name="description"
+        content="DIOM Courier Services offers fast, affordable, and professional local, interstate (2-3 working days), and international shipping, freight forwarding, and haulage services across Nigeria and beyond. Trust us, we deliver!">
+    <meta name="keywords"
+        content="DIOM Courier Services, Nigeria shipping, Lagos delivery, interstate courier, international shipments, air freight, sea freight, trucking services, freight forwarding, affordable logistics, professional delivery, 2-3 day delivery Nigeria">
+
+    <style>
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.4);
+            right: 0;
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 500px;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+    <meta name='robots' content='max-image-preview:large' />
+    <link rel="shortcut icon" href="resources/images/diome-icon.png" type="image/x-icon">
+    <link rel='stylesheet' id='jkit-elements-main-css'
+        href='../wp-content/plugins/jeg-elementor-kit/assets/css/elements/main61da.css?ver=2.6.2' media='all' />
+    <link rel='stylesheet' id='wp-block-library-css'
+        href='../wp-includes/css/dist/block-library/style.minaec2.css?ver=6.4.1' media='all' />
+    <link rel='stylesheet' id='allow-webp-image-css'
+        href='../wp-content/plugins/allow-webp-image/public/css/allow-webp-image-publicf269.css?ver=1.0.1'
+        media='all' />
+    <link rel='stylesheet' id='template-kit-export-css'
+        href='../wp-content/plugins/template-kit-export/public/assets/css/template-kit-export-public.min365c.css?ver=1.0.21'
+        media='all' />
+    <link rel='stylesheet' id='contact-form-7-css'
+        href='../wp-content/plugins/contact-form-7/includes/css/styles4999.css?ver=5.7.4' media='all' />
+    <link rel='stylesheet' id='hfe-style-css'
+        href='../wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor1f62.css?ver=1.6.13'
+        media='all' />
+    <link rel='stylesheet' id='elementor-icons-css'
+        href='../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min192d.css?ver=5.23.0'
+        media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css'
+        href='../wp-content/plugins/elementor/assets/css/frontend.min8864.css?ver=3.17.3' media='all' />
+    <link rel='stylesheet' id='swiper-css'
+        href='../wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min48f5.css?ver=5.3.6' media='all' />
+    <link rel='stylesheet' id='elementor-post-13-css'
+        href='../wp-content/uploads/sites/61/elementor/css/post-13eb9e.css?ver=1700562331' media='all' />
+    <link rel='stylesheet' id='jet-sticky-frontend-css'
+        href='../wp-content/plugins/jetsticky-for-elementor/assets/css/jet-sticky-frontend4bf4.css?ver=1.0.3'
+        media='all' />
+    <link rel='stylesheet' id='elementor-global-css'
+        href='../wp-content/uploads/sites/61/elementor/css/globale61e.css?ver=1700562332' media='all' />
+    <link rel='stylesheet' id='elementor-post-468-css'
+        href='../wp-content/uploads/sites/61/elementor/css/post-468aa89.css?ver=1700567870' media='all' />
+    <link rel='stylesheet' id='hfe-widgets-style-css'
+        href='../wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend1f62.css?ver=1.6.13' media='all' />
+    <link rel='stylesheet' id='font-awesome-5-all-css'
+        href='../wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min8864.css?ver=3.17.3' media='all' />
+    <link rel='stylesheet' id='font-awesome-4-shim-css'
+        href='../wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min8864.css?ver=3.17.3'
+        media='all' />
+    <link rel='stylesheet' id='elementor-post-545-css'
+        href='../wp-content/uploads/sites/61/elementor/css/post-545c83b.css?ver=1700565401' media='all' />
+    <link rel='stylesheet' id='elementor-post-452-css'
+        href='../wp-content/uploads/sites/61/elementor/css/post-4522bb8.css?ver=1700562333' media='all' />
+    <link rel='stylesheet' id='text-editor-style-css'
+        href='../wp-content/plugins/metform/public/assets/css/text-editor9e95.css?ver=3.8.0' media='all' />
+    <link rel='stylesheet' id='hello-elementor-css'
+        href='../wp-content/themes/hello-elementor/style.minc141.css?ver=2.6.1' media='all' />
+    <link rel='stylesheet' id='hello-elementor-theme-style-css'
+        href='../wp-content/themes/hello-elementor/theme.minc141.css?ver=2.6.1' media='all' />
+    <link rel='stylesheet' id='elementor-icons-ekiticons-css'
+        href='../wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons42e1.css?ver=2.8.5'
+        media='all' />
+    <link rel='stylesheet' id='ekit-widget-styles-css'
+        href='../wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles42e1.css?ver=2.8.5'
+        media='all' />
+    <link rel='stylesheet' id='ekit-responsive-css'
+        href='../wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive42e1.css?ver=2.8.5'
+        media='all' />
+    <link rel='stylesheet' id='eael-general-css'
+        href='../wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min9d3a.css?ver=5.6.5'
+        media='all' />
+    <link rel='stylesheet' id='google-fonts-1-css'
+        href='https://fonts.googleapis.com/css?family=Lato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CHeebo%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.4.1'
+        media='all' />
+    <link rel='stylesheet' id='elementor-icons-shared-0-css'
+        href='../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min52d5.css?ver=5.15.3'
+        media='all' />
+    <link rel='stylesheet' id='elementor-icons-fa-solid-css'
+        href='../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min52d5.css?ver=5.15.3' media='all' />
+    <link rel='stylesheet' id='elementor-icons-jkiticon-css'
+        href='../wp-content/plugins/jeg-elementor-kit/assets/fonts/jkiticon/jkiticon61da.css?ver=2.6.2' media='all' />
+    <link rel='stylesheet' id='elementor-icons-fa-brands-css'
+        href='../wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min52d5.css?ver=5.15.3' media='all' />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <script src="../wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
+    <script src="../wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1" id="jquery-migrate-js"></script>
+    <script src="../wp-content/plugins/allow-webp-image/public/js/allow-webp-image-publicf269.js?ver=1.0.1"
+        id="allow-webp-image-js"></script>
+    <script
+        src="../wp-content/plugins/template-kit-export/public/assets/js/template-kit-export-public.min365c.js?ver=1.0.21"
+        id="template-kit-export-js"></script>
+    <script src="../wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min8864.js?ver=3.17.3"
+        id="font-awesome-4-shim-js"></script>
+    <link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/468.json" />
+    <link rel="alternate" type="application/json+oembed"
+        href="../wp-json/oembed/1.0/embedbd6f.json?url=https%3A%2F%2Ftemplatekit.jegtheme.com%2Fdeliverra%2Fabout-us%2F" />
+    <link rel="alternate" type="text/xml+oembed"
+        href="../wp-json/oembed/1.0/embedbe69?url=https%3A%2F%2Ftemplatekit.jegtheme.com%2Fdeliverra%2Fabout-us%2F&amp;format=xml" />
+</head>
+
+<body
+    class="page-template page-template-elementor_header_footer page page-id-468 ehf-header ehf-footer ehf-template-hello-elementor ehf-stylesheet-hello-elementor jkit-color-scheme elementor-default elementor-template-full-width elementor-kit-13 elementor-page elementor-page-468">
+    <div id="page" class="hfeed site">
+
+        <header id="masthead" itemscope="itemscope">
+            <div data-elementor-type="wp-post" data-elementor-id="545" class="elementor elementor-545">
+                <section
+                    class="elementor-section elementor-top-section elementor-element elementor-element-85413f0 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="85413f0" data-element_type="section"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-container elementor-column-gap-default" style="flex-wrap: nowrap;">
+                        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element "
+                            data-id="b2f0821" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated"
+                                style="padding: 0px; width: auto;">
+                                <div class="elementor-element elementor-element-07d0a70 elementor-widget elementor-widget-image"
+                                    data-id="07d0a70" data-element_type="widget" data-widget_type="image.default">
+                                    <div class="elementor-widget-container">
+                                        <img fetchpriority="high" decoding="async" width="280" height="145"
+                                            src="resources/images/diome-logo.png"
+                                            class="attachment-large size-large wp-image-580" alt="Diom Logo" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-199a6f2"
+                            data-id="199a6f2" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-5d569e6 elementor-widget elementor-widget-jkit_nav_menu"
+                                    data-id="5d569e6" data-element_type="widget"
+                                    data-widget_type="jkit_nav_menu.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="jeg-elementor-kit jkit-nav-menu break-point-tablet submenu-click-title jeg_module_468__68e8d8524f841"
+                                            data-item-indicator="&lt;i aria-hidden=&quot;true&quot; class=&quot;jki jki-chevron-down-line&quot;&gt;&lt;/i&gt;">
+                                            <button class="jkit-hamburger-menu"><i aria-hidden="true"
+                                                    class="jki jki-bars-solid"></i></button>
+                                            <div class="jkit-menu-wrapper">
+                                                <div class="jkit-menu-container">
+                                                    <ul id="menu-menu-1"
+                                                        class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top">
+                                                        <li id="menu-item-698"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-698">
+                                                            <a href="index.html">Home</a>
+                                                        </li>
+                                                        <li id="menu-item-7"
+                                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7">
+                                                            <a href="about.html" aria-current="page">About Us</a>
+                                                        </li>
+                                                        <li id="menu-item-6"
+                                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6">
+                                                            <a href="services.html">Services</a>
+                                                        </li>
+                                                        <li id="menu-item-699"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-468 current_page_item menu-item-699">
+                                                            <a href="#">Tracking</a>
+                                                        </li>
+                                                        <li id="menu-item-728"
+                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-728">
+                                                            <a href="contact.html">Contact</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="jkit-nav-identity-panel">
+                                                    <div class="jkit-nav-site-title"><a href="#"
+                                                            class="jkit-nav-logo"><img
+                                                                src="resources/images/diome-logo.png"></a>
+                                                    </div>
+                                                    <button class="jkit-close-menu"><i aria-hidden="true"
+                                                            class="fas fa-times"></i></button>
+                                                </div>
+                                            </div>
+                                            <div class="jkit-overlay"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-be3fe4c elementor-hidden-tablet elementor-hidden-phone"
+                            data-id="be3fe4c" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-9ded8d8 elementor-align-right elementor-widget elementor-widget-button"
+                                    data-id="9ded8d8" data-element_type="widget" data-widget_type="button.default">
+                                    <div class="elementor-widget-container">
+                                        <ul class="elementor-icon-list-items">
+                                            <li class="elementor-icon-list-item">
+                                                <a href="tel:+2347068160887"><span class="elementor-icon-list-icon">
+                                                        <i aria-hidden="true" class="fas fa-phone-alt"
+                                                            style="color: white;"></i> </span>
+                                                    <span class="elementor-icon-list-text" style="color: white;">+234
+                                                        706 816 0887</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </header>
+
+        <div data-elementor-type="wp-page" data-elementor-id="468" class="elementor elementor-468">
+            <section
+                class="elementor-section elementor-top-section elementor-element elementor-element-9112458 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                data-id="9112458" data-element_type="section">
+                <div class="elementor-background-video-container elementor-hidden-phone">
+                    <div class="elementor-background-video-embed"></div>
+                </div>
+                <div class="elementor-background-overlay"></div>
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-694a937"
+                        data-id="694a937" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-8abd604 elementor-widget elementor-widget-heading"
+                                data-id="8abd604" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">Track Your Shipment</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7025a16"
+                        data-id="7025a16" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-f495119 elementor-align-right elementor-icon-list--layout-inline elementor-mobile-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                data-id="f495119" data-element_type="widget" data-widget_type="icon-list.default">
+                                <div class="elementor-widget-container">
+                                    <ul class="elementor-icon-list-items elementor-inline-items">
+                                        <li class="elementor-icon-list-item elementor-inline-item">
+                                            <span class="elementor-icon-list-text">Home</span>
+                                        </li>
+                                        <li class="elementor-icon-list-item elementor-inline-item">
+                                            <span class="elementor-icon-list-icon">
+                                                <i aria-hidden="true" class="fas fa-chevron-right"></i> </span>
+                                            <span class="elementor-icon-list-text">Tracking</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section
+                class="elementor-section elementor-top-section elementor-element elementor-element-tracking-section elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                data-id="tracking-section" data-element_type="section"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style="padding: 100px 0px;">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-tracking-column"
+                        data-id="tracking-column" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-tracking-form elementor-widget elementor-widget-text-editor"
+                                data-id="tracking-form" data-element_type="widget"
+                                data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <form id="trackingForm" action="#" method="post" onsubmit="trackShipment(event)">
+                                        <label for="bookingId">Booking ID:</label><br>
+                                        <input type="text" id="bookingId" name="bookingId" required
+                                            placeholder="Enter your Booking ID"><br><br>
+                                        <label for="clientName">Your Name:</label><br>
+                                        <input type="text" id="clientName" name="clientName" required
+                                            placeholder="Enter your full name"><br><br>
+                                        <button type="submit">Track Now</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Modal -->
+            <div id="trackingModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                    <div id="modalTrackingResult"></div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class='footer-width-fixer'>
+                <div data-elementor-type="wp-post" data-elementor-id="452" class="elementor elementor-452">
+                    <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-b889710 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        data-id="b889710" data-element_type="section"
+                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                        <div class="elementor-background-overlay"></div>
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-468941f"
+                                data-id="468941f" data-element_type="column">
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                    <section
+                                        class="elementor-section elementor-inner-section elementor-element elementor-element-0b610fe elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                        data-id="0b610fe" data-element_type="section">
+                                        <div class="elementor-container elementor-column-gap-no">
+                                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-be5357e"
+                                                data-id="be5357e" data-element_type="column"
+                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-726cb98 elementor-widget elementor-widget-image"
+                                                        data-id="726cb98" data-element_type="widget"
+                                                        data-widget_type="image.default">
+                                                        <div class="elementor-widget-container">
+                                                            <h3 style="color: white;">Diom Courier Services</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-2bf981c elementor-widget elementor-widget-text-editor"
+                                                        data-id="2bf981c" data-element_type="widget"
+                                                        data-widget_type="text-editor.default">
+                                                        <div class="elementor-widget-container">
+                                                            DIOM Courier Services provides reliable shipping solutions
+                                                            across Nigeria and beyond.
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-6525f67 elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                                        data-id="6525f67" data-element_type="widget"
+                                                        data-widget_type="icon-list.default">
+                                                        <div class="elementor-widget-container">
+                                                            <ul class="elementor-icon-list-items">
+                                                                <li class="elementor-icon-list-item">
+                                                                    <span class="elementor-icon-list-icon">
+                                                                        <i aria-hidden="true"
+                                                                            class="fas fa-map-marker-alt"
+                                                                            style="color: white;"></i>
+                                                                    </span>
+                                                                    <span class="elementor-icon-list-text">Office C4
+                                                                        Gbaja Shopping Mall Off Akerele Rd Opp St
+                                                                        Anthony's Catholic Church, Surulere,
+                                                                        Nigeria</span>
+                                                                </li>
+                                                                <li class="elementor-icon-list-item">
+                                                                    <span class="elementor-icon-list-icon">
+                                                                        <i aria-hidden="true" class="fas fa-phone-alt"
+                                                                            style="color: white;"></i> </span>
+                                                                    <span class="elementor-icon-list-text">+234 706 816
+                                                                        0887</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-d68b353"
+                                                data-id="d68b353" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-55a591c elementor-widget elementor-widget-heading"
+                                                        data-id="55a591c" data-element_type="widget"
+                                                        data-widget_type="heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <h4 class="elementor-heading-title elementor-size-default">
+                                                                Quick Links</h4>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-element elementor-element-bfd4a67 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                                        data-id="bfd4a67" data-element_type="widget"
+                                                        data-widget_type="icon-list.default">
+                                                        <div class="elementor-widget-container">
+                                                            <ul class="elementor-icon-list-items">
+                                                                <li class="elementor-icon-list-item">
+                                                                    <a href="index.html">
+                                                                        <span
+                                                                            class="elementor-icon-list-text">Home</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="elementor-icon-list-item">
+                                                                    <a href="about.html">
+                                                                        <span class="elementor-icon-list-text">About
+                                                                            Us</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="elementor-icon-list-item">
+                                                                    <a href="/services.html">
+                                                                        <span
+                                                                            class="elementor-icon-list-text">Services</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="elementor-icon-list-item">
+                                                                    <a href="/contact.html">
+                                                                        <span
+                                                                            class="elementor-icon-list-text">Contact</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="elementor-icon-list-item">
+                                                                    <a href="#">
+                                                                        <span
+                                                                            class="elementor-icon-list-text">Tracking</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-8be9631"
+                                                data-id="8be9631" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-b1b9c5d elementor-widget elementor-widget-heading"
+                                                        data-id="b1b9c5d" data-element_type="widget"
+                                                        data-widget_type="heading.default">
+                                                        <div class="elementor-widget-container">
+                                                            <h4 class="elementor-heading-title elementor-size-default">
+                                                                Contact Us
+
+                                                            </h4>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="elementor-element elementor-element-b0da3f9 elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon"
+                                                        data-id="b0da3f9" data-element_type="widget"
+                                                        data-widget_type="icon.default">
+                                                        <div class="elementor-widget-container">
+                                                            <form action="/footer-contact" method="post"
+                                                                class="contact-form"
+                                                                style="display: flex; flex-direction: column; gap: 20px;">
+                                                                <div style="display: flex; gap: 20px;">
+                                                                    <div class="form-group" style="width: 100%;">
+                                                                        <input type="text" id="name" name="name"
+                                                                            placeholder="Name" required
+                                                                            style="width: 100%;">
+                                                                    </div>
+                                                                    <div class="form-group" style="width: 100%;">
+                                                                        <input type="email" id="email" name="email"
+                                                                            style="width: 100%;" placeholder="Email"
+                                                                            required>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <textarea id="message" name="message" rows="3"
+                                                                        placeholder="Message" required></textarea>
+                                                                </div>
+                                                                <button type="submit"
+                                                                    class="elementor-button elementor-size-sm">Send</button>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <section
+                                        class="elementor-section elementor-inner-section elementor-element elementor-element-f330c1a elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                        data-id="f330c1a" data-element_type="section">
+                                        <div class="elementor-container elementor-column-gap-no">
+                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-bfb7afb"
+                                                data-id="bfb7afb" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-394cd0e elementor-widget elementor-widget-text-editor"
+                                                        data-id="394cd0e" data-element_type="widget"
+                                                        data-widget_type="text-editor.default">
+                                                        <div class="elementor-widget-container">
+                                                            Copyright © DIOM Courier Services. All rights reserved.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-da9384b"
+                                                data-id="da9384b" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-20c1578 elementor-shape-circle e-grid-align-right e-grid-align-tablet-right e-grid-align-mobile-center elementor-grid-0 elementor-widget elementor-widget-social-icons"
+                                                        data-id="20c1578" data-element_type="widget"
+                                                        data-widget_type="social-icons.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="elementor-social-icons-wrapper elementor-grid">
+                                                                <span class="elementor-grid-item">
+                                                                    <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-animation-shrink elementor-repeater-item-c0163ab"
+                                                                        target="_blank">
+                                                                        <span
+                                                                            class="elementor-screen-only">Facebook-f</span>
+                                                                        <i class="fab fa-facebook-f"></i> </a>
+                                                                </span>
+                                                                <span class="elementor-grid-item">
+                                                                    <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-shrink elementor-repeater-item-310ab07"
+                                                                        target="_blank">
+                                                                        <span
+                                                                            class="elementor-screen-only">Twitter</span>
+                                                                        <i class="fab fa-twitter"></i> </a>
+                                                                </span>
+                                                                <span class="elementor-grid-item">
+                                                                    <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-animation-shrink elementor-repeater-item-63f86db"
+                                                                        target="_blank">
+                                                                        <span
+                                                                            class="elementor-screen-only">Instagram</span>
+                                                                        <i class="fab fa-instagram"></i> </a>
+                                                                </span>
+                                                                <span class="elementor-grid-item">
+                                                                    <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-shrink elementor-repeater-item-d54d883"
+                                                                        target="_blank">
+                                                                        <span
+                                                                            class="elementor-screen-only">Youtube</span>
+                                                                        <i class="fab fa-youtube"></i> </a>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <link rel='stylesheet' id='jeg-dynamic-style-css'
+        href='../wp-content/plugins/jeg-elementor-kit/lib/jeg-framework/assets/css/jeg-dynamic-styles6f3e.css?ver=1.3.0'
+        media='all' />
+    <link rel='stylesheet' id='tiny-slider-css'
+        href='../wp-content/plugins/jeg-elementor-kit/assets/js/tiny-slider/tiny-sliderf342.css?ver=2.9.3'
+        media='all' />
+    <link rel='stylesheet' id='e-animations-css'
+        href='../wp-content/plugins/elementor/assets/lib/animations/animations.min8864.css?ver=3.17.3' media='all' />
+    <script src="../wp-content/plugins/contact-form-7/includes/swv/js/index4999.js?ver=5.7.4" id="swv-js"></script>
+    <script src="../wp-content/plugins/contact-form-7/includes/js/index4999.js?ver=5.7.4"
+        id="contact-form-7-js"></script>
+    <script src="../wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script42e1.js?ver=2.8.5"
+        id="elementskit-framework-js-frontend-js"></script>
+    <script src="../wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts42e1.js?ver=2.8.5"
+        id="ekit-widget-scripts-js"></script>
+    <script src="../wp-content/plugins/elementor/assets/js/webpack.runtime.min8864.js?ver=3.17.3"
+        id="elementor-webpack-runtime-js"></script>
+    <script src="../wp-content/plugins/elementor/assets/js/frontend-modules.min8864.js?ver=3.17.3"
+        id="elementor-frontend-modules-js"></script>
+    <script src="../wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2"
+        id="elementor-waypoints-js"></script>
+    <script src="../wp-includes/js/jquery/ui/core.min3f14.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+    <script id="elementor-frontend-js-before">
+        var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.17.3", "is_static": false, "experimentalFeatures": { "e_dom_optimization": true, "e_optimized_assets_loading": true, "additional_custom_breakpoints": true, "landing-pages": true }, "urls": { "assets": "https:\/\/templatekit.jegtheme.com\/deliverra\/wp-content\/plugins\/elementor\/assets\/" }, "swiperClass": "swiper-container", "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 468, "title": "About%20Us%20%E2%80%93%20Deliverra", "excerpt": "", "featuredImage": false } };
+    </script>
+    <script src="../wp-content/plugins/elementor/assets/js/frontend.min8864.js?ver=3.17.3"
+        id="elementor-frontend-js"></script>
+    <script src="../wp-content/plugins/jeg-elementor-kit/assets/js/elements/sticky-element61da.js?ver=2.6.2"
+        id="jkit-sticky-element-js"></script>
+    <script id="eael-general-js-extra">
+        var localize = { "ajaxurl": "https:\/\/templatekit.jegtheme.com\/deliverra\/wp-admin\/admin-ajax.php", "nonce": "486d40fda1", "i18n": { "added": "Added ", "compare": "Compare", "loading": "Loading..." }, "eael_translate_text": { "required_text": "is a required field", "invalid_text": "Invalid", "billing_text": "Billing", "shipping_text": "Shipping", "fg_mfp_counter_text": "of" }, "page_permalink": "https:\/\/templatekit.jegtheme.com\/deliverra\/about-us\/", "cart_redirectition": "", "cart_page_url": "", "el_breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } };
+    </script>
+    <script
+        src="../wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min9d3a.js?ver=5.6.5"
+        id="eael-general-js"></script>
+    <script src="../wp-content/plugins/jeg-elementor-kit/assets/js/elements/nav-menu61da.js?ver=2.6.2"
+        id="jkit-element-navmenu-js"></script>
+    <script src="../wp-content/plugins/jeg-elementor-kit/assets/js/elements/testimonials61da.js?ver=2.6.2"
+        id="jkit-element-testimonials-js"></script>
+    <script src="../wp-content/plugins/jeg-elementor-kit/assets/js/tiny-slider/tiny-sliderf342.js?ver=2.9.3"
+        id="tiny-slider-js"></script>
+    <script id="jkit-element-pagination-js-extra">
+        var jkit_element_pagination_option = { "element_prefix": "jkit_element_ajax_" };
+    </script>
+    <script src="../wp-content/plugins/jeg-elementor-kit/assets/js/elements/post-pagination61da.js?ver=2.6.2"
+        id="jkit-element-pagination-js"></script>
+    <script src="../wp-content/plugins/jetsticky-for-elementor/assets/js/lib/ResizeSensor.min7d4c.js?ver=1.7.0"
+        id="jet-resize-sensor-js"></script>
+    <script
+        src="../wp-content/plugins/jetsticky-for-elementor/assets/js/lib/sticky-sidebar/sticky-sidebar.min3d36.js?ver=3.3.1"
+        id="jet-sticky-sidebar-js"></script>
+    <script src="../wp-content/plugins/jetsticky-for-elementor/assets/js/lib/jsticky/jquery.jstickyf488.js?ver=1.1.0"
+        id="jsticky-js"></script>
+    <script id="jet-sticky-frontend-js-extra">
+        var JetStickySettings = { "elements_data": { "sections": [], "columns": [] } };
+    </script>
+    <script src="../wp-content/plugins/jetsticky-for-elementor/assets/js/jet-sticky-frontend4bf4.js?ver=1.0.3"
+        id="jet-sticky-frontend-js"></script>
+    <script src="../wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle42e1.js?ver=2.8.5"
+        id="animate-circle-js"></script>
+    <script id="elementskit-elementor-js-extra">
+        var ekit_config = { "ajaxurl": "https:\/\/templatekit.jegtheme.com\/deliverra\/wp-admin\/admin-ajax.php", "nonce": "6c0cbe8f5c" };
+    </script>
+    <script src="../wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor42e1.js?ver=2.8.5"
+        id="elementskit-elementor-js"></script>
+    <script src="../wp-content/plugins/elementor/assets/lib/swiper/swiper.min42e1.js?ver=2.8.5" id="swiper-js"></script>
+    <script>
+        function trackShipment(event) {
+            event.preventDefault();
+            const bookingId = document.getElementById('bookingId').value;
+            const clientName = document.getElementById('clientName').value;
+            const modalResult = document.getElementById('modalTrackingResult');
+
+            // Simulating a tracking API call (replace with actual API integration)
+            // Current date and time: 07:01 AM WAT, October 21, 2025
+            const currentDate = new Date();
+            const mockTrackingData = {
+                "bookingId": bookingId,
+                "clientName": clientName,
+                "status": "In Transit",
+                "lastLocation": "Lagos Sorting Facility",
+                "estimatedDelivery": "October 22, 2025",
+                "lastUpdate": currentDate.toLocaleString('en-US', { timeZone: 'Africa/Lagos' })
+            };
+
+            if (bookingId && clientName) {
+                modalResult.innerHTML = `
+                            <h3>Tracking Details for ${clientName}</h3>
+                            <p><strong>Booking ID:</strong> ${mockTrackingData.bookingId}</p>
+                            <p><strong>Status:</strong> ${mockTrackingData.status}</p>
+                            <p><strong>Last Known Location:</strong> ${mockTrackingData.lastLocation}</p>
+                            <p><strong>Estimated Delivery:</strong> ${mockTrackingData.estimatedDelivery}</p>
+                            <p><strong>Last Updated:</strong> ${mockTrackingData.lastUpdate}</p>
+                        `;
+                document.getElementById('trackingModal').style.display = 'block';
+            } else {
+                modalResult.innerHTML = "<p>Please fill in all fields.</p>";
+                document.getElementById('trackingModal').style.display = 'block';
+            }
+        }
+
+        function closeModal() {
+            document.getElementById('trackingModal').style.display = 'none';
+            document.getElementById('modalTrackingResult').innerHTML = '';
+            document.getElementById('bookingId').value = '';
+            document.getElementById('clientName').value = '';
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function (event) {
+            const modal = document.getElementById('trackingModal');
+            if (event.target == modal) {
+                closeModal();
+            }
+        }
+    </script>
+</body>
+
+</html>
