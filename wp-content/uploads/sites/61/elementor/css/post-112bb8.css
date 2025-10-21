@@ -462,7 +462,7 @@
 
 .elementor-11 .elementor-element.elementor-element-fe4b622 .jeg-elementor-kit.jkit-icon-box .icon-box-button a.icon-box-link,
 .elementor-11 .elementor-element.elementor-element-fe4b622 .jeg-elementor-kit.jkit-icon-box .icon-box-button a.icon-box-link i {
-    color: #011875;
+    color: #f9d80d;
 }
 
 .elementor-11 .elementor-element.elementor-element-fe4b622 .jeg-elementor-kit.jkit-icon-box:hover .icon-box-button a.icon-box-link {
@@ -566,7 +566,7 @@
 
 .elementor-11 .elementor-element.elementor-element-f931419 .jeg-elementor-kit.jkit-icon-box .icon-box-button a.icon-box-link,
 .elementor-11 .elementor-element.elementor-element-f931419 .jeg-elementor-kit.jkit-icon-box .icon-box-button a.icon-box-link i {
-    color: #011875;
+    color: #f9d80d;
 }
 
 .elementor-11 .elementor-element.elementor-element-f931419 .jeg-elementor-kit.jkit-icon-box:hover .icon-box-button a.icon-box-link {
@@ -670,7 +670,7 @@
 
 .elementor-11 .elementor-element.elementor-element-2311479 .jeg-elementor-kit.jkit-icon-box .icon-box-button a.icon-box-link,
 .elementor-11 .elementor-element.elementor-element-2311479 .jeg-elementor-kit.jkit-icon-box .icon-box-button a.icon-box-link i {
-    color: #011875;
+    color: #f9d80d;
 }
 
 .elementor-11 .elementor-element.elementor-element-2311479 .jeg-elementor-kit.jkit-icon-box:hover .icon-box-button a.icon-box-link {
@@ -961,14 +961,14 @@
     color: #7A7A7A;
 }
 
-.elementor-11 .elementor-element.elementor-element-22c5a94 .jeg-elementor-kit.jkit-image-box .button-box .button-wrapper a {
+.elementor-11 .jeg-elementor-kit.jkit-image-box .button-box .button-wrapper a {
     font-family: var(--e-global-typography-4c6ab70-font-family), Sans-serif;
     font-size: var(--e-global-typography-4c6ab70-font-size);
     font-weight: var(--e-global-typography-4c6ab70-font-weight);
     line-height: var(--e-global-typography-4c6ab70-line-height);
     letter-spacing: var(--e-global-typography-4c6ab70-letter-spacing);
     word-spacing: var(--e-global-typography-4c6ab70-word-spacing);
-    background-color: #011875;
+    background-color: #f9d80d !important;
     border-radius: 50px 50px 50px 50px;
 }
 
@@ -1803,7 +1803,7 @@
     line-height: var(--e-global-typography-secondary-line-height);
 }
 
-.elementor-11 .elementor-element.elementor-element-d7cb9f1 .elementor-button {
+.elementor-11 .elementor-button {
     font-family: var(--e-global-typography-bc30396-font-family), Sans-serif;
     font-size: var(--e-global-typography-bc30396-font-size);
     font-weight: var(--e-global-typography-bc30396-font-weight);
@@ -1812,7 +1812,7 @@
     word-spacing: var(--e-global-typography-bc30396-word-spacing);
     fill: #FFFFFF;
     color: #FFFFFF;
-    background-color: #011875;
+    background-color: #f9d80d;
     border-radius: 50px 50px 50px 50px;
     padding: 15px 35px 15px 35px;
 }
@@ -4723,4 +4723,18 @@ body:not(.rtl) .elementor-11 .elementor-element.elementor-element-a427a1f .eleme
     .elementor-element.elementor-element-1fafad0 .jeg-elementor-kit.jkit-testimonials .testimonials-track:not(.tns-slider):not(:nth-child(1)) {
         margin-right: 10px;
     }
+}
+
+.elementor-11 .elementor-button {
+    font-family: var(--e-global-typography-bc30396-font-family), Sans-serif;
+    font-size: var(--e-global-typography-bc30396-font-size);
+    font-weight: var(--e-global-typography-bc30396-font-weight);
+    line-height: var(--e-global-typography-bc30396-line-height);
+    letter-spacing: var(--e-global-typography-bc30396-letter-spacing);
+    word-spacing: var(--e-global-typography-bc30396-word-spacing);
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #f9d80d !;
+    border-radius: 50px 50px 50px 50px;
+    padding: 15px 35px 15px 35px;
 }
